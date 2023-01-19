@@ -1,0 +1,45 @@
+
+* {
+    font-family: font-family: 'Explora', cursive;
+        font-family: 'Rubik', sans-serif;
+    color:white;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+   
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#14d9c4;
+    opacity: 0.9;
+    height: 45px;
+    align-items: center;
+}
+
+
+
+.nombre-grupo{
+     font-size: 16px;
+     text-transform: uppercase;
+     height: 60px;
+     text-align: center;
+     line-height: 60px;
+     background-color: #099d8d;
+     opacity: 0.95;
+    
+}
+
+.elemento-menu {
+    font-size: 16px;
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
