@@ -23,13 +23,27 @@
 }
 
 
-header{
+.hero {
     display: flex;
     flex-direction: column;
     width: 100%;
     color:white;
     font-family: 'Explora', cursive;
     font-family: 'Rubik', sans-serif;
+    background-image:url(/img/fondo.png);
+    background-size: cover;
+    height: 421px;
+
+}
+
+.menu-tablet {
+    display: none;
+}
+
+
+ .navbar{
+    position: fixed;
+    width: 100%;
    
 }
 
@@ -41,6 +55,7 @@ header{
     opacity: 0.9;
     height: 45px;
     align-items: center;
+   
 }
 
 
@@ -233,5 +248,48 @@ h3 {
 
 .fortalezas-debilidades-section p {
     color:#54585a;
+
+}
+
+/*media queries*/
+
+@media screen and (min-width:768px) {
+
+.hero {
+        width: 100%;
+        color: white;
+        font-family: 'Explora', cursive;
+        font-family: 'Rubik', sans-serif;
+        background-image: url(/img/fondo.png);
+        background-size: cover;
+        height: 421px;
+
+    }
+
+    .navbar {
+    display: none;
+    }
+
+     .menu-tablet {
+      display: flex;
+      flex-direction: row;
+    background-color: #099d8d;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+                }
+
+
+    .elemento-menu {
+        font-size: 16px;
+        list-style-type: none;
+        text-transform: uppercase;
+        display: inline;
+        padding:10px;
+
+}
 
 }
