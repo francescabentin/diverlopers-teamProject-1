@@ -1,8 +1,8 @@
 
-* {
-    font-family: font-family: 'Explora', cursive;
-        font-family: 'Rubik', sans-serif;
-    color:white;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -43,3 +43,28 @@ header{
 
 }
 
+.equipo-section{
+    margin: auto;
+    color: grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.title-section {
+    color: #14d9c4;
+    font-size: 24px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-family: Rubik, sans-serif;
+}
+
+.contenido-section {
+     color: #54585a;
+     font-family: OpenSans, sans-serif;
+     font-size: 16px;
+     margin: 15px;
+
+}
