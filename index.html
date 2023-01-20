@@ -5,18 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/reset.css" />
-    <link rel="stylesheet" href="/css/main.css" />
-
     <link
       href="https://fonts.googleapis.com/css2?family=Explora&family=Rubik:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/main.css" />
   </head>
 
   <body>
     <header>
-      <span class="nombre-grupo">nombre de grupo</span>
+      <div class="nombre-grupo"><h1>nombre de grupo</h1></div>
       <nav class="nav-menu">
         <li class="elemento-menu">equipo</li>
         <li class="elemento-menu">quienes somos</li>
@@ -30,11 +35,69 @@
         <img src="" alt="" />
         <h1></h1>
       </section>
-      <section>Equipo</section>
-      <section>Fortalezas + Debilidades</section>
+      <section class="equipo-section">
+        <h2 class="title-section">Equipo</h2>
+        <div class="contenido-section">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum
+            ullamcorper mauris, vel convallis metus eleifend in. Cras hendrerit
+            at ante eget auctor. Nunc maximus ipsum non volutpat convallis.
+            Morbi interdum neque et aliquam varius.
+          </p>
+          <p>
+            Vivamus feugiat eu sem sed eleifend. Morbi efficitur lorem eget
+            justo sodales feugiat. Vestibulum tristique sed ante semper
+            elementum. Orci varius natoque penatibus et magnis dis parturient
+            montes, nascetur ridiculus mus.
+          </p>
+        </div>
+      </section>
+      <section class="fortalezas-debilidades-section">
+        <div>
+          <h3>Fortalezas</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum
+            ullamcorper mauris, vel convallis metus eleifend in. Cras hendrerit
+            at ante eget auctor. Nunc maximus ipsum non volutpat convallis.
+            Morbi interdum neque et aliquam varius.
+          </p>
+        </div>
+        <div>
+          <h3>Debilidades</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc rutrum
+            ullamcorper mauris, vel convallis metus eleifend in. Cras hendrerit
+            at ante eget auctor. Nunc maximus ipsum non volutpat convallis.
+            Morbi interdum neque et aliquam varius.
+          </p>
+        </div>
+      </section>
+
       <section>Quiénes somos</section>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+      <section class="nombre-grupo-footer">
+        <small>Nombre del grupo © 2018</small>
+      </section>
+      <section>
+        <ul class="menu-inferior">
+          <li>
+            <a class="equipo" href="">Equipo</a>
+          </li>
+          <li>
+            <a href="">Quiénes somos</a>
+          </li>
+          <li>
+            <a href="">Contacto</a>
+          </li>
+        </ul>
+      </section>
+      <section class="logo-footer">
+        <a href="https://adalab.es/">
+          <img class="logo" src="./img/logo-adalab.webp" alt="Logo Adalab" />
+        </a>
+      </section>
+    </footer>
   </body>
 </html>

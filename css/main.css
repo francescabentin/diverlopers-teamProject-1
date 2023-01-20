@@ -110,49 +110,6 @@ header{
 }
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-header{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    color:white;
-    font-family: 'Explora', cursive;
-    font-family: 'Rubik', sans-serif;
-   
-}
-
-.nav-menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color:#14d9c4;
-    opacity: 0.9;
-    height: 45px;
-    align-items: center;
-}
-
-.nombre-grupo{
-     font-size: 16px;
-     text-transform: uppercase;
-     height: 60px;
-     text-align: center;
-     line-height: 60px;
-     background-color: #099d8d;
-     opacity: 0.95;
-    
-}
-
-.elemento-menu {
-    font-size: 16px;
-    list-style-type: none;
-    text-transform: uppercase;
-}
 
 .fortalezas-debilidades-section {
     background-color: #f1f1f1;
@@ -164,69 +121,6 @@ h3 {
     font-weight: 3000;
     color: #099d8d
 
-}
-
-.equipo-section{
-    margin: auto;
-    color: grey;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-flow: wrap;
-    justify-content: center;
-}
-
-.title-section {
-    color: #14d9c4;
-    font-size: 24px;
-    line-height: 45px;
-    text-transform: uppercase;
-    font-family: Rubik, sans-serif;
-}
-
-.contenido-section {
-     color: #54585a;
-     font-family: OpenSans, sans-serif;
-     font-size: 16px;
-     margin: 15px;
-}
-
-.footer{
-    color: #b8b8b9;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.nombre-grupo-footer {
-    padding-top: 32px;
-}
-
-.menu-inferior {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: space-between;
-    margin: 20px auto;
-    gap: 7px;
-}
-
-.equipo {
-    text-decoration: none;
-    text-decoration-color: none;
-    color: #b8b8b9;
-}
-
-.logo-footer {
-    display: flex;
-    flex-direction: colum;
-    align-items: center;
-    justify-content: center;
-}
-
-.logo {
-    max-width: 20vh;
 }
 
 .fortalezas-debilidades-section p {
