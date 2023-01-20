@@ -154,3 +154,84 @@ top: -14px;
 
   
   
+.equipo-section{
+    margin: auto;
+    color: grey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.title-section {
+    color: #14d9c4;
+    font-size: 24px;
+    line-height: 45px;
+    text-transform: uppercase;
+    font-family: Rubik, sans-serif;
+}
+
+.contenido-section {
+     color: #54585a;
+     font-family: OpenSans, sans-serif;
+     font-size: 16px;
+     margin: 15px;
+}
+
+.footer{
+    color: #b8b8b9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombre-grupo-footer {
+    padding-top: 32px;
+}
+
+.menu-inferior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-between;
+    margin: 20px auto;
+    gap: 7px;
+}
+
+.equipo {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #b8b8b9;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: colum;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 20vh;
+}
+
+
+
+.fortalezas-debilidades-section {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+}
+
+h3 {
+    font-weight: 3000;
+    color: #099d8d
+
+}
+
+.fortalezas-debilidades-section p {
+    color:#54585a;
+
+}
