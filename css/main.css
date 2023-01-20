@@ -1,9 +1,8 @@
-
+/* 
 * {
-    font-family: font-family: 'Explora', cursive;
-        font-family: 'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     color:white;
-}
+} */
 
 
 header{
@@ -23,8 +22,6 @@ header{
     align-items: center;
 }
 
-
-
 .nombre-grupo{
      font-size: 16px;
      text-transform: uppercase;
@@ -40,6 +37,21 @@ header{
     font-size: 16px;
     list-style-type: none;
     text-transform: uppercase;
+}
+
+.fortalezas-debilidades-section {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 2rem;
+}
+
+h3 {
+    font-weight: 3000;
+    color: #099d8d
 
 }
 
+.fortalezas-debilidades-section p {
+    color:#54585a;
+
+}
