@@ -27,6 +27,9 @@ header{
     display: flex;
     flex-direction: column;
     width: 100%;
+    color:white;
+    font-family: 'Explora', cursive;
+    font-family: 'Rubik', sans-serif;
    
 }
 
