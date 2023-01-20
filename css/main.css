@@ -32,7 +32,10 @@
     font-family: 'Rubik', sans-serif;
     background-image:url(/img/fondo.png);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 421px;
+    margin-bottom: 30px;
+   
 
 }
 
@@ -77,6 +80,23 @@
     text-transform: uppercase;
 
 }
+
+.rectangle{
+    background-color: white;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    position:relative;
+    top: 89%;
+    width: 90%;
+    height: 15%;
+    align-self: center;
+    align-content: center;
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+
 
 .section-3 {
     width: 100%;
@@ -270,9 +290,9 @@ h3 {
     display: none;
     }
 
-     .menu-tablet {
-      display: flex;
-      flex-direction: row;
+ .menu-tablet {
+    display: flex;
+    flex-direction: row;
     background-color: #099d8d;
     justify-content: space-between;
     height: 60px;
@@ -290,6 +310,21 @@ h3 {
         display: inline;
         padding:10px;
 
+}
+.rectangle {
+    background-color: white;
+    font-size: 18px;
+    opacity: 0.8;
+    text-align: left;
+    color: black;
+    position: relative;
+    top: 68%;
+    right: 15%;
+    width: 55%;
+    height: 25%;
+    align-content: center;
+    padding: 10px;
+    line-height: 25px;
 }
 
 }
