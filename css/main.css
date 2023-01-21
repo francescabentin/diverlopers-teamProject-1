@@ -152,6 +152,10 @@ position: relative;
 top: -14px;
 }
 
+.linklogos {
+    color: var(--blue-green);
+}
+
   
   
 .equipo-section{
