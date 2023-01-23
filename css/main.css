@@ -1,16 +1,14 @@
 
-/*
-* {
-    font-family: font-family: 'Explora', cursive;
-        font-family: 'Rubik', sans-serif;
-    color:white;
-}
-*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
+html{
+    font-size: 62.5%;
+}
+
 :root {
  --black: #000;
   --light-grey-blue: rgba(184, 184, 185, 0.1);
@@ -195,21 +193,34 @@ top: -14px;
     flex-direction: column;
     flex-flow: wrap;
     justify-content: center;
+    padding: 4.5rem 4.5rem 3rem;
+
 }
 
+
 .title-section {
-    color: #14d9c4;
-    font-size: 24px;
-    line-height: 45px;
+    color: var(--blue-green);
+    font-size: 2.4rem;
+    line-height: 1.88rem;
     text-transform: uppercase;
     font-family: Rubik, sans-serif;
+    margin: 0 29.4rem 1.5rem 29.5rem;
+    text-align: center;
 }
 
 .contenido-section {
-     color: #54585a;
+     color: var(--gunmetal);
      font-family: OpenSans, sans-serif;
-     font-size: 16px;
-     margin: 15px;
+     font-size: 1.6rem;
+     margin: 1.5rem 0 0;
+     opacity: 0.67;
+     text-align: center;
+     line-height: 1.5;
+    
+}
+
+.contenido-section p:first-child{
+    padding-bottom: 1.5rem;
 }
 
 .footer{
@@ -326,4 +337,77 @@ h3 {
     line-height: 25px;
 }
 
+}
+
+/*media queries*/
+
+@media screen and (min-width:768px) {
+
+.hero {
+        width: 100%;
+        color: white;
+        font-family: 'Explora', cursive;
+        font-family: 'Rubik', sans-serif;
+        background-image: url(/img/fondo.png);
+        background-size: cover;
+        height: 421px;
+
+
+    }
+
+    .navbar {
+    display: none;
+    }
+
+ .menu-tablet {
+    display: flex;
+    flex-direction: row;
+    background-color: #099d8d;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+                }
+
+
+    .elemento-menu {
+        font-size: 16px;
+        list-style-type: none;
+        text-transform: uppercase;
+        display: inline;
+        padding:10px;
+
+}
+.rectangle {
+    background-color: white;
+    font-size: 18px;
+    opacity: 0.8;
+    text-align: left;
+    color: black;
+    position: relative;
+    top: 68%;
+    right: 15%;
+    width: 55%;
+    height: 25%;
+    align-content: center;
+    padding: 10px;
+    line-height: 25px;
+}
+
+}
+
+@media (min-width: 1200px) {
+
+    .equipo-section {
+        max-width: 67.8rem;
+    }
+}
+
+@media (min-width: 1200px){
+
+    .equipo-section{
+        max-width: 60.1rem;
+    }
 }
