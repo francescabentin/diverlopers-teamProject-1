@@ -34,7 +34,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 421px;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
    
 
 }
@@ -283,6 +283,7 @@ h3 {
         background-image: url(/img/fondo.png);
         background-size: cover;
         height: 421px;
+
 
     }
 
