@@ -1,17 +1,16 @@
+
 .hero {
   display: flex;
   flex-direction: column;
-  width: 100%;
   color: white;
   font-family: 'Explora', cursive;
   font-family: 'Rubik', sans-serif;
   background-image: url(../images/fondo.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 421px;
-  margin-bottom: 100px;
-
-
+  height: 460px;
+  margin-bottom: 6rem;
+  min-width: 289px;
 }
 
 .menu-tablet {
@@ -29,26 +28,26 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #14d9c4;
+  background-color: $--aqua;
   opacity: 0.9;
-  height: 45px;
   align-items: center;
+  padding: 15px 0;
 
 }
 
 .nombre-grupo {
-  font-size: 16px;
+  font-size: 1.6rem;
   text-transform: uppercase;
-  height: 60px;
   text-align: center;
   line-height: 60px;
   background-color: #099d8d;
   opacity: 0.95;
+  letter-spacing: 0.2rem;
 
 }
 
 .elemento-menu {
-  font-size: 16px;
+  font-size: 1.5rem;
   list-style-type: none;
   text-transform: uppercase;
 
@@ -56,7 +55,7 @@
 
 .rectangle {
   background-color: white;
-  font-size: 18px;
+  font-size: 1.5rem;
   text-align: center;
   color: black;
   position: relative;
@@ -76,7 +75,7 @@
     font-family: 'Explora', cursive;
     font-family: 'Rubik', sans-serif;
     height: 421px;
-
+    font-size: 1.5rem;
 
   }
 
@@ -87,18 +86,16 @@
   .menu-tablet {
     display: flex;
     flex-direction: row;
-    background-color: #099d8d;
+    background-color: $--blue-green;
     justify-content: space-between;
-    height: 60px;
     align-items: center;
     text-transform: uppercase;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px ;
   }
 
 
   .elemento-menu {
-    font-size: 16px;
+    font-size: 1.5rem;
     list-style-type: none;
     text-transform: uppercase;
     display: inline;
@@ -108,7 +105,7 @@
 
   .rectangle {
     background-color: white;
-    font-size: 18px;
+    font-size: 1.5rem;
     opacity: 0.8;
     text-align: left;
     color: black;
