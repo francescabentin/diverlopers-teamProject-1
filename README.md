@@ -1,5 +1,11 @@
 ![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
 
+# Explicación del proyecto: 
+
+Este proyecto está enfocado a hacer una presentación del equipo 1 de la promoción S de Adalab. Su objetivo es prácticar lo visto en el BootCamp, así como dar visibildiad al equipo. 
+
+Para llevar a cabo el proyecto se ha usado los lenguajes de programación HTML y CSS, junto al Adalab Starter Kit, que nos brindará ayuda en el uso de gulp y SASS.
+
 # Adalab web starter kit
 
 Ahoy! Este es nuestro Starter Kit creado en **node y gulp**. ¿Y qué es un Starter kit? Pues es una **plantilla de proyecto con funcionalidades preinstaladas y preconfiguradas**.
