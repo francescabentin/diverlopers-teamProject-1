@@ -1,0 +1,81 @@
+@media screen and (min-width:320px) {
+
+    .fortalezas-debilidades-section {
+        background-color: #f1f1f1;
+        font-size: 16px;
+        text-align: center;
+        padding: 2rem;
+        font-family: Rubik, sans-serif;
+        position: relative;
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #099d8d;
+        padding: 0.7rem;
+    }
+
+    .fortalezas-debilidades-section p {
+        color: #54585a;
+        margin-bottom: 10px;
+        font-family: OpenSans, sans-serif;
+        font-size: 1.6rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+
+    }
+
+}
+
+@media screen and (min-width:768px) {
+
+    .fortalezas-debilidades-section {
+        background-color: #f1f1f1;
+        font-size: 16px;
+        display: flex;
+        text-align: center;
+        padding: 2rem;
+        justify-content: space-between;
+        font-family: Rubik, sans-serif;
+
+    }
+
+    h3 {
+        font-size: 22px;
+        font-weight: 500;
+        color: #099d8d;
+        padding: 0.7rem;
+    }
+
+    .fortalezas-debilidades-section p {
+        color: #54585a;
+        margin-bottom: 10px;
+        font-family: OpenSans, sans-serif;
+        font-size: 1.6rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+    }
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 30px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

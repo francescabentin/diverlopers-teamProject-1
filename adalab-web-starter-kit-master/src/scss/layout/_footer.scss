@@ -1,8 +1,71 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  width: 100%;
+  color: #b8b8b9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'open sans';
+}
+
+.nombre-grupo-footer {
+  font-size: 0.85rem;
+  padding-top: 3rem;
+
+}
+
+.menu-inferior {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: space-between;
+  margin: 20px auto;
+  gap: 7px;
+
+}
+
+.equipo {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: #54585a;
+}
+
+.quienes-somos-footer {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: #54585a;
+}
+
+.contacto-footer {
+  text-decoration: none;
+  text-decoration-color: none;
+  color: #54585a;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: colum;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  max-width: 7rem;
+}
+
+@media all and (min-width: 320px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+  }
+
+  .menu-inferior {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    float: left;
+  }
+
+
 }
