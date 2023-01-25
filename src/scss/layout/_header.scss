@@ -5,12 +5,14 @@
   color: white;
   font-family: 'Explora', cursive;
   font-family: 'Rubik', sans-serif;
-  background-image: url(../images/fondo.png);
+  background-image: url(../images/manos.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 460px;
   margin-bottom: 6rem;
   min-width: 289px;
+  background-position: 50%;
+  
 }
 
 .menu-tablet {
@@ -20,6 +22,7 @@
 
 .navbar {
   position: fixed;
+  z-index: 1000;
   width: 100%;
 
 }
@@ -76,6 +79,7 @@
     font-family: 'Rubik', sans-serif;
     height: 421px;
     font-size: 1.5rem;
+    
 
   }
 
