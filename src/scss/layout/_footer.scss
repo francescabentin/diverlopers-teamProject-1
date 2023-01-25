@@ -51,22 +51,42 @@
 
 .logo {
   max-width: 12rem;
-  padding: 30px 0;
+  padding: 30px 0 45px 0;
+}
+
+.footer-2 {
+  font-size: 1.4rem;
+}
+
+@media all and (max-width: 768px){
+  .footer-2{
+    display: none;
+  }
 }
 
 @media all and (min-width: 768px) {
-  .footer {
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
+  .nombre-grupo-footer {
+      display: none;
+}
+  .logo-footer{
+    display: none;
   }
 
-  .menu-inferior {
-    display: flex;
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 45px;
+  align-items: center;
+}
+
+  .menu-inferior{
+    grid-column: 2/3;
     align-items: flex-end;
-    align-content: flex-end;
-    float: left;
   }
 
+  .logo{
+    padding: 0;
+  }
 
+  
 }
