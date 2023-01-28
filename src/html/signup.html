@@ -1,24 +1,44 @@
 
-    <include src="./partials/header.html"></include>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+      <include src="./partials/header.html"></include>
    
     
+<div class="container">
+    <h1 class="container__title">contacto</h1>
+    <p class="container__content">¿Te interesa contratar un equipo de desarrollo web y no sabes a quién acudir? ¡Contacta con nosotras! Te respodneremos en menos de 48 horas.</p>
+    <p class="container__note">Todos los campos marcados con <span class="form__span">*</span> son obligatorios</p>
+</div>
 
-<h1>contacto</h1>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quibusdam dignissimos. Dignissimos ducimus hic, eius
-    dolores suscipit quis tenetur ipsam ipsa? Tenetur repudiandae officiis earum ipsum eaque voluptas iusto debitis!</p>
+<form action="" class="form">
+    <label id="nombreApellido" class="form__label">Nombre Completo <span class="form__span">*</span></label>
+    <input type="text" name="nombreApellido" id="nombreApellido" required placeholder="Escribe tu Nombre Completo" class="form__input">
 
-<p>Todos los campos marcados con * son obligatorios</p>
+    <label id="Email" class="form__label labelEmail">Email <span class="form__span">*</span> </label>
+    <input type="email" name="email" id="email" required placeholder="Escribe tu Email" class="form__input email">
 
-<form action="">
-    <label for="nombreApellido">Nombre Completo *</label>
-    <input type="text" name="nombreApellido" id="nombreApellido" required placeholder="Escribe tu Nombre Completo">
-    <label for="Email">Email *</label>
-    <input type="email" name="email" id="email" required placeholder="Escribe tu Email">
-    <label for="telefono">Teléfono</label>
-    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono">
-    <textarea name="texto" id="texto" cols="30" rows="10" required placeholder="Escribe tu mensaje">Mensaje *</textarea>
-    <input type="submit" value="enviar">
+    <label id="telefono" class="form__label labelTelf">Teléfono</label>
+    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" class="form__input telf">
+
+    <label id="mensaje" class="form__label">Mensaje <span class="form__span">*</span></label>
+    <textarea name="mensaje" id="mensaje" cols="30" rows="10" required placeholder="Escribe tu mensaje" class="form__label form__mensaje">¿Qué necesitas?</textarea>
+
+    <input type="submit" value="enviar" class="form__submit">
 
 </form>
 
 <include src="./partials/footer.html"></include>
+</body>
+</html>  
+  

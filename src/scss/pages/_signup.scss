@@ -1,0 +1,141 @@
+
+.container{
+    font-family: OpenSans, sans-serif;
+      color: $--gunmetal;
+      font-size: 1.6rem;
+      line-height: 1.5;
+      text-align: center;
+      row-gap: 5rem;
+
+      &__title{
+        font-size: 2.4rem;
+        line-height: 1.8;
+        color: $--blue-green;
+        text-transform: uppercase;
+        font-family: Rubik, sans-serif;
+        font-weight: 500;
+      }
+
+      &__content{
+        font-size: 1.6rem;
+        line-height: 1.5;
+        margin: 2rem 3rem 3rem 3rem;
+      }
+
+      &__note{
+        font-size: 1.2rem;
+        line-height: 1.5;
+        margin-bottom: 5rem;
+      }
+
+      @media (min-width: 768px) {
+        max-width: 47.8rem;
+        margin: auto;
+
+      }
+
+      @media (min-width: 1200px) {
+        max-width: 60.1rem;
+        
+      }
+    }
+
+
+.form{
+  padding: 0rem 1.5rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: relative;
+  margin-top: 5rem;
+  font-family: OpenSans, sans-serif;
+
+  @media (min-width: 768px) {
+    max-width: 47.8rem;
+    margin: auto;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 60.1rem;
+
+    .labelTelf{
+      grid-column: 2/3;
+      grid-row: 3/4;
+      margin-left: 3rem;
+    }
+
+    .telf{
+      grid-column: 2/3;
+      grid-row: 4/5;
+      margin-left: 3rem;
+    }
+
+    .labelEmail{
+      grid-column: 1/2;
+
+    }
+    .email{
+      grid-column: 1/2;
+    }
+
+    &__submit{
+      grid-column: 2/3;
+      width: 28.8rem;
+
+    }
+  }
+
+  &__label{
+    font-family: OpenSans, sans-serif;
+    color: $--gunmetal;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+  }
+
+  &__input{
+    margin-bottom: 2rem;
+    height: 4.5rem;
+    border:1px solid $--cool-grey;
+    padding: 0.5rem;
+    grid-column: 1/3;
+  }
+
+  &__mensaje{
+    border: 1px solid $--cool-grey;
+    padding: 0.5rem;
+    font-family: OpenSans, sans-serif;
+    font-size: 1.4rem;
+    color: $--cool-grey;
+    grid-column: 1/3;
+  }
+
+  &__input::placeholder {
+    font-family: OpenSans, sans-serif;
+    font-size: 1.4rem;
+    color: $--cool-grey;
+  }
+
+
+  &__input:focus {
+    background: rgb(237, 236, 236);
+  }
+
+  &__mensaje:focus {
+    background: rgb(237, 236, 236);
+  }
+
+  &__submit{
+    width: 100%;
+    height: 4.5rem;
+    margin: auto;
+    background-color: $--blue-green;
+    text-transform: uppercase;
+    border: 0px;
+    color: white;
+    border-radius: 0.4rem;
+    margin-top: 3rem;
+  }
+
+  &__span{
+    color: $--aqua;
+  }
+}
