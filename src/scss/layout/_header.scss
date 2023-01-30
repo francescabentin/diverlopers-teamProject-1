@@ -49,7 +49,7 @@
   line-height: 60px;
   background-color: #099d8d;
   opacity: 0.95;
-  letter-spacing: 0.2rem;
+  letter-spacing: 0.3rem;
 
 }
 
@@ -100,7 +100,10 @@
     text-transform: uppercase;
     padding: 20px ;
   }
-
+                .menu-tablet a {
+                  text-decoration: none;
+                  color: white;
+                }
 
   .elemento-menu {
     font-size: 1.5rem;
