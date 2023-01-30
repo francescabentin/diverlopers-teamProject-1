@@ -1,92 +1,76 @@
 .footer {
-  width: 100%;
+  width: 100vw;
   color: #b8b8b9;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-family: 'open sans';
-}
 
-.nombre-grupo-footer {
-  font-size: 1.4rem;
-  padding-top: 3rem;
+  .nombre-grupo-footer {
+      font-size: 1.4rem;
+      padding-top: 3rem;
+    }
 
-}
+  .menu-inferior {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-items: space-between;
+      margin: 20px auto;
+      font-size: 1.5rem;
+      gap: 7px;
+    }
 
-.menu-inferior {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-items: space-between;
-  margin: 20px auto;
-  font-size: 1.5rem;
-  gap: 7px;
+  .equipo {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #54585a;
+    }
 
-}
-
-.equipo {
-  text-decoration: none;
-  text-decoration-color: none;
-  color: #54585a;
-}
-
-.quienes-somos-footer {
-  text-decoration: none;
-  text-decoration-color: none;
-  color: #54585a;
-}
-
-.contacto-footer {
-  text-decoration: none;
-  text-decoration-color: none;
-  color: #54585a;
-}
-
-.logo-footer {
-  display: flex;
-  flex-direction: colum;
-  align-items: center;
-}
-
-.logo {
-  max-width: 12rem;
-  padding: 30px 0 45px 0;
-}
-
-.footer-2 {
-  font-size: 1.4rem;
-}
-
-@media all and (max-width: 768px){
-  .footer-2{
-    display: none;
+  .quienes-somos-footer {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #54585a;
   }
+  
+  .contacto-footer {
+    text-decoration: none;
+    text-decoration-color: none;
+    color: #54585a;
+  }
+
+  .logo {
+    width: 11rem;
+  }
+
 }
+
 
 @media all and (min-width: 768px) {
-  .nombre-grupo-footer {
-      display: none;
-}
-  .logo-footer{
-    display: none;
-  }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding: 0 45px;
   align-items: center;
-}
 
-  .menu-inferior{
+  .menu-inferior {
     grid-column: 2/3;
     align-items: flex-end;
+    text-align: end;
+    }
+
+  .logo {
+    position: relative;
+    transform: translateY(-55px);
   }
 
-  .logo{
-    padding: 0;
+  .nombre-grupo-footer{
+    position: relative;
+    transform: translateY(-35px);
   }
 
-  
+}
+
 }
